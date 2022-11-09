@@ -11,3 +11,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run transform
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: tokens/test.json
