@@ -4,7 +4,18 @@
         <title>Figma Tokens</title>
         <meta name="description" content="Figma Tokens">
         <meta name="keywords" content="Figma Tokens">
-        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript">            
+            var link = document.createElement( "link" );
+            var number = Math.random() * 1000000;
+            link.href = "css/style" + ".css" + "?" + Math.floor(number);
+            link.type = "text/css";
+            link.rel = "stylesheet";
+            
+            document.getElementsByTagName( "head" )[0].appendChild( link );
+        </script>
+
+
     </head>
     <body>
         <button class="button">Button</button>
