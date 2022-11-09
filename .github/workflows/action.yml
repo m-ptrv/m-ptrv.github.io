@@ -1,15 +1,12 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Demo
+run-name: GitHub Actions
 on: [push]
 jobs:
-  inputs:
-    who-to-greet:  # id of input
-      description: 'Who to greet'
-      required: true
-      default: 'World'
-  outputs:
-    time: # id of output
-      description: 'The time we greeted you'
-  runs:
-    using: 'node16'
-    main: 'reload.js'  
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: "reload.js"
