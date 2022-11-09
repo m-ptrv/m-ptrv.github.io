@@ -1,1 +1,1 @@
-setTimeout(() => location.reload(true), 10000);
+setTimeout(() => window.location.href = window.location.href, 1000);
