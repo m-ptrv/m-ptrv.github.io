@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass": "^1.56.0",
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.27"
+  },
+  "scripts": {
+    "init": "token-transformer data/tokens.json tokens/tokens.json & style-dictionary build & sass --watch scss/style.scss css/style.css"
+  }
+}
