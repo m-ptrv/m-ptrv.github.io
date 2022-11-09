@@ -10,5 +10,3 @@ jobs:
         with:
           node-version: 16
       - run: npm run transform
-      - run: npm run style
-      - run: npm run sass
