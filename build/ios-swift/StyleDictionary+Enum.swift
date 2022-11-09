@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 09 Nov 2022 18:29:39 GMT
+// Generated on Wed, 09 Nov 2022 18:33:17 GMT
 
 
 import UIKit
@@ -15,6 +15,7 @@ public enum StyleDictionaryEnum {
     public static let bodyMd = [object Object]
     public static let bodySm = [object Object]
     public static let borderRadius = 4
+    public static let borderWidth = 1
     public static let colorsBlack = #171717
     public static let colorsBlue100 = #d8ddfd
     public static let colorsBlue200 = #b1bafb
