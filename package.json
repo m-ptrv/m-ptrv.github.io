@@ -7,6 +7,6 @@
   "scripts": {
     "transform": "token-transformer data/tokens.json tokens/tokens.json",
     "style": "style-dictionary build",
-    "sass": "sass --watch scss/style.scss css/style.css"
+    "sass": "sass scss/style.scss css/style.css"
   }
 }
