@@ -10,6 +10,6 @@
     "transform": "token-transformer data/tokens.json tokens/tokens.json",
     "style": "style-dictionary build",
     "sass": "sass scss/style.scss css/style.css",
-    "reload": "ls -l js/reload.js"
+    "watch": "sass --watch scss/style.scss css/style.css"
   }
 }

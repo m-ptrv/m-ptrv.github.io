@@ -1,8 +1,39 @@
+body {
+  padding: 50px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
 .button {
-  padding: 20px;
-  background-color: green;
-  color: white;
-  font-size: 24px;
+  background-color: #5f368d;
+  border: none;
+  border-radius: 3px;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.42857143;
+  padding: 8px 16px 8px 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+.button:hover {
+  background-color: #512e78;
+}
+
+.button--small {
+  font-size: 14px;
+}
+
+.button--large {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
