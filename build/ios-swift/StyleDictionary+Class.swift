@@ -4,12 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 08 Nov 2022 16:53:42 GMT
+// Generated on Wed, 09 Nov 2022 04:26:02 GMT
 
 
 import UIKit
 
 public class StyleDictionaryClass {
-    public static let main = #f00
+    public static let main = orange
     public static let tokenSetOrder0 = global
 }
