@@ -4,12 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 09 Nov 2022 10:23:01 GMT
+// Generated on Wed, 09 Nov 2022 10:28:46 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryEnum {
-    public static let main = grey
+    public static let main = green
     public static let tokenSetOrder0 = global
 }
