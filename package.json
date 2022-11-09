@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
     "sass": "^1.56.0",
     "style-dictionary": "^3.7.1",
     "token-transformer": "^0.0.27"
@@ -7,6 +9,7 @@
   "scripts": {
     "transform": "token-transformer data/tokens.json tokens/tokens.json",
     "style": "style-dictionary build",
-    "sass": "sass scss/style.scss css/style.css"
+    "sass": "sass scss/style.scss css/style.css",
+    "reload": "ls -l js/reload.js"
   }
 }
