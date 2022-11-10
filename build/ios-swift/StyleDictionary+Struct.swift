@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 10 Nov 2022 04:07:59 GMT
+// Generated on Thu, 10 Nov 2022 04:13:52 GMT
 
 
 import UIKit
@@ -102,6 +102,7 @@ internal struct StyleDictionaryStruct {
     internal static let horizontalLg = 24
     internal static let horizontalMd = 20
     internal static let horizontalSm = 16
+    internal static let lineHeightBase = 100%
     internal static let tokenSetOrder0 = global
     internal static let verticalLg = 16
     internal static let verticalMd = 12

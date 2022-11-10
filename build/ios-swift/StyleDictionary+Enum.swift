@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 10 Nov 2022 04:07:59 GMT
+// Generated on Thu, 10 Nov 2022 04:13:52 GMT
 
 
 import UIKit
@@ -102,6 +102,7 @@ public enum StyleDictionaryEnum {
     public static let horizontalLg = 24
     public static let horizontalMd = 20
     public static let horizontalSm = 16
+    public static let lineHeightBase = 100%
     public static let tokenSetOrder0 = global
     public static let verticalLg = 16
     public static let verticalMd = 12
