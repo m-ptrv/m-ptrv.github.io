@@ -4,18 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 09 Nov 2022 18:35:58 GMT
+// Generated on Thu, 10 Nov 2022 04:07:59 GMT
 
 
 import UIKit
 
 internal struct StyleDictionaryStruct {
     internal static let baseline = 4
-    internal static let bodyLg = [object Object]
-    internal static let bodyMd = [object Object]
-    internal static let bodySm = [object Object]
     internal static let borderRadius = 4
-    internal static let borderWidth = 1
+    internal static let borderWidthBase = 1
     internal static let colorsBlack = #171717
     internal static let colorsBlue100 = #d8ddfd
     internal static let colorsBlue200 = #b1bafb
@@ -95,6 +92,13 @@ internal struct StyleDictionaryStruct {
     internal static let colorsYellow800 = #33250b
     internal static let colorsYellow900 = #191306
     internal static let colorsYellow950 = #0C0903
+    internal static let fontFamilyBody = Inter
+    internal static let fontSizeBodyLg = 20
+    internal static let fontSizeBodyMd = 16
+    internal static let fontSizeBodySm = 12
+    internal static let fontWeightInter400 = Regular
+    internal static let fontWeightInter700 = Bold
+    internal static let fontWeightInter800 = Extra Bold
     internal static let horizontalLg = 24
     internal static let horizontalMd = 20
     internal static let horizontalSm = 16

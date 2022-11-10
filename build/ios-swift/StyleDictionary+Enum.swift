@@ -4,18 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 09 Nov 2022 18:35:58 GMT
+// Generated on Thu, 10 Nov 2022 04:07:59 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryEnum {
     public static let baseline = 4
-    public static let bodyLg = [object Object]
-    public static let bodyMd = [object Object]
-    public static let bodySm = [object Object]
     public static let borderRadius = 4
-    public static let borderWidth = 1
+    public static let borderWidthBase = 1
     public static let colorsBlack = #171717
     public static let colorsBlue100 = #d8ddfd
     public static let colorsBlue200 = #b1bafb
@@ -95,6 +92,13 @@ public enum StyleDictionaryEnum {
     public static let colorsYellow800 = #33250b
     public static let colorsYellow900 = #191306
     public static let colorsYellow950 = #0C0903
+    public static let fontFamilyBody = Inter
+    public static let fontSizeBodyLg = 20
+    public static let fontSizeBodyMd = 16
+    public static let fontSizeBodySm = 12
+    public static let fontWeightInter400 = Regular
+    public static let fontWeightInter700 = Bold
+    public static let fontWeightInter800 = Extra Bold
     public static let horizontalLg = 24
     public static let horizontalMd = 20
     public static let horizontalSm = 16
