@@ -2,6 +2,7 @@
 
 body {
     padding: 50px;
+    background-color: $theme-bg-surface;
 }
 
 .buttons {
@@ -14,27 +15,31 @@ body {
 .button {
     background-color: $colors-purple-500;
     border: none;
-    border-radius: $border-radius;
+    border-radius: $border-radius + px;
     color: $colors-white;
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
-    line-height: 1.42857143;
-    padding: 8px 16px 8px 16px;
+    font-size: $font-size-body-md + px;
+    line-height: $line-height-base;
+    padding: $vertical-md + px $horizontal-md + px;
     position: relative;
     text-align: left;
     text-decoration: none!important;
     vertical-align: middle;
     
     &:hover {
-        background-color: #512e78;
+        background-color: $theme-accent-muted;
     }
-}
 
-.button--small {
-    font-size: 14px;
-}
+    &:active {
+        background-color: $theme-accent-emphasis;
+    }
 
-.button--large {
-    font-size: 18px;    
+    &--small {
+        font-size: $font-size-body-sm + px;
+    }
+    
+    &--large {
+        font-size: $font-size-body-lg + px;    
+    }
 }

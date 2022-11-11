@@ -1,5 +1,6 @@
 body {
   padding: 50px;
+  background-color: #171717;
 }
 
 .buttons {
@@ -12,28 +13,29 @@ body {
 .button {
   background-color: #563fd8;
   border: none;
-  border-radius: 4;
+  border-radius: 4px;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
-  line-height: 1.42857143;
-  padding: 8px 16px 8px 16px;
+  line-height: 100%;
+  padding: 12px 20px;
   position: relative;
   text-align: left;
   text-decoration: none !important;
   vertical-align: middle;
 }
 .button:hover {
-  background-color: #512e78;
+  background-color: #6475f7;
 }
-
+.button:active {
+  background-color: #3142c4;
+}
 .button--small {
-  font-size: 14px;
+  font-size: 12px;
 }
-
 .button--large {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
