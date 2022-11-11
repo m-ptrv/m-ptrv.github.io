@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 10 Nov 2022 04:13:52 GMT
+// Generated on Fri, 11 Nov 2022 04:09:01 GMT
 
 
 import UIKit
@@ -13,6 +13,12 @@ internal struct StyleDictionaryStruct {
     internal static let baseline = 4
     internal static let borderRadius = 4
     internal static let borderWidthBase = 1
+    internal static let buttonHorizontalLg = 24
+    internal static let buttonHorizontalMd = 20
+    internal static let buttonHorizontalSm = 16
+    internal static let buttonVerticalLg = 16
+    internal static let buttonVerticalMd = 12
+    internal static let buttonVerticalSm = 8
     internal static let colorsBlack = #171717
     internal static let colorsBlue100 = #d8ddfd
     internal static let colorsBlue200 = #b1bafb
@@ -104,6 +110,7 @@ internal struct StyleDictionaryStruct {
     internal static let horizontalSm = 16
     internal static let lineHeightBase = 100%
     internal static let tokenSetOrder0 = global
+    internal static let tokenSetOrder1 = button
     internal static let verticalLg = 16
     internal static let verticalMd = 12
     internal static let verticalSm = 8

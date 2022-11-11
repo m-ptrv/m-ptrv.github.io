@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 10 Nov 2022 04:13:52 GMT
+// Generated on Fri, 11 Nov 2022 04:09:01 GMT
 
 
 import UIKit
@@ -13,6 +13,12 @@ public enum StyleDictionaryEnum {
     public static let baseline = 4
     public static let borderRadius = 4
     public static let borderWidthBase = 1
+    public static let buttonHorizontalLg = 24
+    public static let buttonHorizontalMd = 20
+    public static let buttonHorizontalSm = 16
+    public static let buttonVerticalLg = 16
+    public static let buttonVerticalMd = 12
+    public static let buttonVerticalSm = 8
     public static let colorsBlack = #171717
     public static let colorsBlue100 = #d8ddfd
     public static let colorsBlue200 = #b1bafb
@@ -104,6 +110,7 @@ public enum StyleDictionaryEnum {
     public static let horizontalSm = 16
     public static let lineHeightBase = 100%
     public static let tokenSetOrder0 = global
+    public static let tokenSetOrder1 = button
     public static let verticalLg = 16
     public static let verticalMd = 12
     public static let verticalSm = 8
