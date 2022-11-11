@@ -36,12 +36,12 @@
     },
     "fg": {
       "on-accent": {
-        "value": "{colors.white}",
+        "value": "{colors.black}",
         "type": "color",
         "failedToResolve": true
       },
       "default": {
-        "value": "{colors.black}",
+        "value": "{colors.white}",
         "type": "color",
         "failedToResolve": true
       },
@@ -49,6 +49,10 @@
         "value": "{colors.grey.700}",
         "type": "color",
         "failedToResolve": true
+      },
+      "test": {
+        "value": "#000",
+        "type": "color"
       }
     }
   }
