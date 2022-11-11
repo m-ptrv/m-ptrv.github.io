@@ -1,0 +1,13 @@
+{
+  "source": ["tokens/*.json", "tokens/light/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_light.scss",
+        "format": "scss/variables"
+      }]
+    }
+  }
+}

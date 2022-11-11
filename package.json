@@ -7,8 +7,8 @@
     "token-transformer": "^0.0.27"
   },
   "scripts": {
-    "transform": "token-transformer data/tokens.json tokens/global.json global & token-transformer data/tokens.json tokens/default.json default & token-transformer data/tokens.json tokens/ligth.json ligth & token-transformer data/tokens.json tokens/dark.json dark",
-    "style": "style-dictionary build",
+    "transform": "token-transformer data/tokens.json tokens/global.json global & token-transformer data/tokens.json tokens/default.json default & token-transformer data/tokens.json tokens/light/ligth.json ligth & token-transformer data/tokens.json tokens/dark/dark.json dark",
+    "style": "style-dictionary build -c ./config/dark.json & style-dictionary build -c ./config/light.json",
     "sass": "sass scss/style.scss css/style.css",
     "watch": "sass --watch scss/style.scss css/style.css"
   }
