@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="dark">
     <head>
         <title>Figma Tokens</title>
         <meta name="description" content="Figma Tokens">
@@ -14,10 +14,18 @@
             
             document.getElementsByTagName( "head" )[0].appendChild( link );
         </script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
+        <header>
+            <p class="header-text">Figma Tokens</p>
+            <div class="header__buttons">
+                <button class="button switch-theme" onclick="switchTheme()">Dark Mode</button>
+                <button class="button" onclick="window.location.reload()">Update</button>
+            </div>
+        </header>
+
         <ul class="buttons">
             <button class="button button--small">Button</button>
             <button class="button">Button</button>
