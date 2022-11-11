@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 11 Nov 2022 04:09:01 GMT
+// Generated on Fri, 11 Nov 2022 05:20:04 GMT
 
 
 import UIKit
@@ -13,12 +13,6 @@ internal struct StyleDictionaryStruct {
     internal static let baseline = 4
     internal static let borderRadius = 4
     internal static let borderWidthBase = 1
-    internal static let buttonHorizontalLg = 24
-    internal static let buttonHorizontalMd = 20
-    internal static let buttonHorizontalSm = 16
-    internal static let buttonVerticalLg = 16
-    internal static let buttonVerticalMd = 12
-    internal static let buttonVerticalSm = 8
     internal static let colorsBlack = #171717
     internal static let colorsBlue100 = #d8ddfd
     internal static let colorsBlue200 = #b1bafb
@@ -98,6 +92,7 @@ internal struct StyleDictionaryStruct {
     internal static let colorsYellow800 = #33250b
     internal static let colorsYellow900 = #191306
     internal static let colorsYellow950 = #0C0903
+    internal static let default = [object Object]
     internal static let fontFamilyBody = Inter
     internal static let fontSizeBodyLg = 20
     internal static let fontSizeBodyMd = 16
@@ -109,8 +104,36 @@ internal struct StyleDictionaryStruct {
     internal static let horizontalMd = 20
     internal static let horizontalSm = 16
     internal static let lineHeightBase = 100%
+    internal static let themeAccentDefault = #3d53f5
+    internal static let themeAccentDisabled = #e0e0e0
+    internal static let themeAccentEmphasis = #3142c4
+    internal static let themeAccentMuted = #6475f7
+    internal static let themeAccentSubtle = #eceefe
+    internal static let themeBaseline = 4
+    internal static let themeBgSurface = #171717
+    internal static let themeBorderRadius = 4
+    internal static let themeBorderWidthBase = 1
+    internal static let themeFgDefault = #171717
+    internal static let themeFgMuted = #616161
+    internal static let themeFgOnAccent = #ffffff
+    internal static let themeFontFamilyBody = Inter
+    internal static let themeFontSizeBodyLg = 20
+    internal static let themeFontSizeBodyMd = 16
+    internal static let themeFontSizeBodySm = 12
+    internal static let themeFontWeight400 = Regular
+    internal static let themeFontWeight700 = Bold
+    internal static let themeFontWeight800 = Extra Bold
+    internal static let themeHorizontalLg = 24
+    internal static let themeHorizontalMd = 20
+    internal static let themeHorizontalSm = 16
+    internal static let themeLineHeightBase = 100%
+    internal static let themeVerticalLg = 16
+    internal static let themeVerticalMd = 12
+    internal static let themeVerticalSm = 16
     internal static let tokenSetOrder0 = global
-    internal static let tokenSetOrder1 = button
+    internal static let tokenSetOrder1 = default
+    internal static let tokenSetOrder2 = light
+    internal static let tokenSetOrder3 = dark
     internal static let verticalLg = 16
     internal static let verticalMd = 12
     internal static let verticalSm = 8

@@ -1,15 +1,38 @@
 
 // Do not edit directly
-// Generated on Fri, 11 Nov 2022 04:09:01 GMT
+// Generated on Fri, 11 Nov 2022 05:20:04 GMT
 
 $token-set-order-0: global;
-$token-set-order-1: button;
-$button-vertical-sm: 8;
-$button-vertical-md: 12;
-$button-vertical-lg: 16;
-$button-horizontal-sm: 16;
-$button-horizontal-md: 20;
-$button-horizontal-lg: 24;
+$token-set-order-1: default;
+$token-set-order-2: light;
+$token-set-order-3: dark;
+$default: [object Object];
+$theme-bg-surface: #171717;
+$theme-accent-default: #3d53f5;
+$theme-accent-subtle: #eceefe;
+$theme-accent-muted: #6475f7;
+$theme-accent-emphasis: #3142c4;
+$theme-accent-disabled: #e0e0e0;
+$theme-fg-on-accent: #ffffff;
+$theme-fg-default: #171717;
+$theme-fg-muted: #616161;
+$theme-baseline: 4;
+$theme-vertical-sm: 16;
+$theme-vertical-md: 12;
+$theme-vertical-lg: 16;
+$theme-horizontal-sm: 16;
+$theme-horizontal-md: 20;
+$theme-horizontal-lg: 24;
+$theme-border-radius: 4;
+$theme-border-width-base: 1;
+$theme-font-family-body: Inter;
+$theme-font-weight-400: Regular;
+$theme-font-weight-700: Bold;
+$theme-font-weight-800: Extra Bold;
+$theme-line-height-base: 100%;
+$theme-font-size-body-sm: 12;
+$theme-font-size-body-md: 16;
+$theme-font-size-body-lg: 20;
 $colors-black: #171717;
 $colors-white: #ffffff;
 $colors-blue-50: #eceefe;

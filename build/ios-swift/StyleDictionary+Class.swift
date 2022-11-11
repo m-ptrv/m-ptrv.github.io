@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 11 Nov 2022 04:09:01 GMT
+// Generated on Fri, 11 Nov 2022 05:20:04 GMT
 
 
 import UIKit
@@ -13,12 +13,6 @@ public class StyleDictionaryClass {
     public static let baseline = 4
     public static let borderRadius = 4
     public static let borderWidthBase = 1
-    public static let buttonHorizontalLg = 24
-    public static let buttonHorizontalMd = 20
-    public static let buttonHorizontalSm = 16
-    public static let buttonVerticalLg = 16
-    public static let buttonVerticalMd = 12
-    public static let buttonVerticalSm = 8
     public static let colorsBlack = #171717
     public static let colorsBlue100 = #d8ddfd
     public static let colorsBlue200 = #b1bafb
@@ -98,6 +92,7 @@ public class StyleDictionaryClass {
     public static let colorsYellow800 = #33250b
     public static let colorsYellow900 = #191306
     public static let colorsYellow950 = #0C0903
+    public static let default = [object Object]
     public static let fontFamilyBody = Inter
     public static let fontSizeBodyLg = 20
     public static let fontSizeBodyMd = 16
@@ -109,8 +104,36 @@ public class StyleDictionaryClass {
     public static let horizontalMd = 20
     public static let horizontalSm = 16
     public static let lineHeightBase = 100%
+    public static let themeAccentDefault = #3d53f5
+    public static let themeAccentDisabled = #e0e0e0
+    public static let themeAccentEmphasis = #3142c4
+    public static let themeAccentMuted = #6475f7
+    public static let themeAccentSubtle = #eceefe
+    public static let themeBaseline = 4
+    public static let themeBgSurface = #171717
+    public static let themeBorderRadius = 4
+    public static let themeBorderWidthBase = 1
+    public static let themeFgDefault = #171717
+    public static let themeFgMuted = #616161
+    public static let themeFgOnAccent = #ffffff
+    public static let themeFontFamilyBody = Inter
+    public static let themeFontSizeBodyLg = 20
+    public static let themeFontSizeBodyMd = 16
+    public static let themeFontSizeBodySm = 12
+    public static let themeFontWeight400 = Regular
+    public static let themeFontWeight700 = Bold
+    public static let themeFontWeight800 = Extra Bold
+    public static let themeHorizontalLg = 24
+    public static let themeHorizontalMd = 20
+    public static let themeHorizontalSm = 16
+    public static let themeLineHeightBase = 100%
+    public static let themeVerticalLg = 16
+    public static let themeVerticalMd = 12
+    public static let themeVerticalSm = 16
     public static let tokenSetOrder0 = global
-    public static let tokenSetOrder1 = button
+    public static let tokenSetOrder1 = default
+    public static let tokenSetOrder2 = light
+    public static let tokenSetOrder3 = dark
     public static let verticalLg = 16
     public static let verticalMd = 12
     public static let verticalSm = 8
