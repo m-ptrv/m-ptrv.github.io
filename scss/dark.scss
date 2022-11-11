@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    padding: 25px;
-    background-color: $theme-fg-default;
+    padding: 20px;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,7 +18,7 @@ header {
 }
 
 .header-text {
-    color: $theme-bg-surface;
+    color: white;
     margin: 0;
     padding: 0;
     font-size: 18px;
