@@ -44,6 +44,11 @@
         "value": "{colors.white}",
         "type": "color",
         "failedToResolve": true
+      },
+      "canvas": {
+        "value": "{colors.white}",
+        "type": "color",
+        "failedToResolve": true
       }
     },
     "accent": {
@@ -81,6 +86,11 @@
       },
       "default": {
         "value": "{colors.black}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "muted": {
+        "value": "{colors.grey.700}",
         "type": "color",
         "failedToResolve": true
       }
