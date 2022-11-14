@@ -1,6 +1,6 @@
 .button {
     border: $theme-border-width-base + px solid transparent;
-    outline: 4px solid transparent;
+    outline: $theme-border-width- solid transparent;
     border-radius: $border-radius + px;
     cursor: pointer;
     display: inline-block;
