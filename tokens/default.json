@@ -200,7 +200,7 @@
         "type": "color",
         "failedToResolve": true
       },
-      "emhasis": {
+      "emphasis": {
         "value": "{colors.grey.300}",
         "type": "color",
         "failedToResolve": true
