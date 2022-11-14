@@ -1,6 +1,6 @@
 .button {
-    border: 1px solid transparent;
-    outline: 4px solid transparent;
+    border: $theme-border-width-base + px solid transparent;
+    outline: $theme-border-width-focus + px solid transparent;
     border-radius: $border-radius + px;
     cursor: pointer;
     display: inline-block;
@@ -23,8 +23,8 @@
 }
 
 .button--primary {
-    background-color: $colors-purple-500;
-    color: $colors-white;
+    background-color: $theme-accent-default;
+    color: $theme-fg-default;
 
     &:hover {
         background-color: $theme-accent-muted;
