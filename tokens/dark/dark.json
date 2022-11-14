@@ -55,6 +55,13 @@
         "type": "color",
         "failedToResolve": true
       }
+    },
+    "border": {
+      "default": {
+        "value": "{colors.grey.700}",
+        "type": "color",
+        "failedToResolve": true
+      }
     }
   }
 }
