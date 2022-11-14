@@ -69,12 +69,12 @@
         "type": "color"
       },
       "muted": {
-        "value": "{colors.grey.700}",
+        "value": "{colors.grey.900}",
         "type": "color",
         "failedToResolve": true
       },
       "emphasis": {
-        "value": "{colors.grey.900}",
+        "value": "{colors.grey.800}",
         "type": "color",
         "failedToResolve": true
       }
