@@ -24,7 +24,7 @@
 
 .button--primary {
     background-color: $theme-accent-default;
-    color: $theme-fg-default;
+    color: $theme-fg-on-accent;
 
     &:hover {
         background-color: $theme-accent-muted;
@@ -59,9 +59,9 @@
 }
 
 .button--outline {
-    background-color: $colors-white;
+    background-color: $theme-bg-surface;
     border-color: $colors-grey-400;
-    color: $colors-black;
+    color: $theme-fg-default;
     box-shadow: 0 0 #0000 ,0 0 #0000,  0 1px 2px 0 rgb(0, 0, 0,0.05);
 
     &:hover {
