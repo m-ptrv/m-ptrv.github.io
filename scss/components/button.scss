@@ -60,7 +60,7 @@
 
 .button--outline {
     background-color: $theme-bg-surface;
-    border-color: $colors-grey-400;
+    border-color: $theme-border-default;
     color: $theme-fg-default;
     box-shadow: 0 0 #0000 ,0 0 #0000,  0 1px 2px 0 rgb(0, 0, 0,0.05);
 
