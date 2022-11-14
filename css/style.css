@@ -11,7 +11,7 @@
   position: relative;
   text-align: left;
   text-decoration: none !important;
-  vertical-align: middle;
+  vertical-align: middle !important;
   box-shadow: none;
 }
 .button--small {
@@ -22,8 +22,8 @@
 }
 
 .button--primary {
-  background-color: #563fd8;
-  color: #ffffff;
+  background-color: #3d53f5;
+  color: #171717;
 }
 .button--primary:hover {
   background-color: #6475f7;
