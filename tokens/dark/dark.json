@@ -36,7 +36,7 @@
     },
     "fg": {
       "on-accent": {
-        "value": "{colors.black}",
+        "value": "{colors.white}",
         "type": "color",
         "failedToResolve": true
       },
