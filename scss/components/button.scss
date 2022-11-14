@@ -45,11 +45,11 @@
     color: $colors-purple-500;
 
     &:hover {
-        background-color: $colors-purple-50;
+        background-color: $theme-secondary-muted;
     }
 
     &:active {
-        background-color: $colors-purple-200;
+        background-color: $theme-secondary-emphasis;
     }
 
     &:focus {
