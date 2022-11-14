@@ -62,6 +62,22 @@
         "type": "color",
         "failedToResolve": true
       }
+    },
+    "outline": {
+      "default": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{colors.grey.700}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "emphasis": {
+        "value": "{colors.grey.900}",
+        "type": "color",
+        "failedToResolve": true
+      }
     }
   }
 }
