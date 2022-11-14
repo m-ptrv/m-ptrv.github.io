@@ -2,7 +2,7 @@
   "theme": {
     "bg": {
       "surface": {
-        "value": "{colors.black}",
+        "value": "{colors.grey.950}",
         "type": "color",
         "failedToResolve": true
       }
