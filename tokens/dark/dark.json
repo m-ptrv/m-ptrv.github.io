@@ -5,6 +5,11 @@
         "value": "{colors.grey.950}",
         "type": "color",
         "failedToResolve": true
+      },
+      "canvas": {
+        "value": "{colors.black}",
+        "type": "color",
+        "failedToResolve": true
       }
     },
     "accent": {
