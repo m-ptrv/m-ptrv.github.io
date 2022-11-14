@@ -54,10 +54,6 @@
         "value": "{colors.grey.700}",
         "type": "color",
         "failedToResolve": true
-      },
-      "test": {
-        "value": 0,
-        "type": "color"
       }
     }
   }
