@@ -1,6 +1,6 @@
-@import '../build/scss/_light.scss';
-@import 'components/button.scss';
-@import 'components/card.scss';
+@import '../../build/scss/_dark.scss';
+@import '../components/button.scss';
+@import '../components/card.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
 body {
@@ -25,13 +25,9 @@ body {
         font-size: 18px;
     }
 
-    &__buttons {
+    &__button {
         display: flex;
         column-gap: 15px;
-
-        .button {
-            border: none;
-        }
     }
 }
 

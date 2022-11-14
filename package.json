@@ -10,7 +10,7 @@
   "scripts": {
     "transform": "token-transformer data/tokens.json tokens/global.json global & token-transformer data/tokens.json tokens/default.json default & token-transformer data/tokens.json tokens/light/ligth.json ligth & token-transformer data/tokens.json tokens/dark/dark.json dark",
     "style": "style-dictionary build -c ./config/dark.json & style-dictionary build -c ./config/light.json",
-    "sass": "sass scss/style.scss css/style.css & sass scss/dark.scss css/dark.css",
+    "sass": "sass scss/style.scss css/style.css & sass scss/themes/dark.scss css/dark.css",
     "watch": "sass --watch scss/style.scss css/style.css"
   }
 }

@@ -1,49 +1,82 @@
 <!doctype html>
-<html class="dark">
+<html>
     <head>
         <title>Figma Tokens</title>
         <meta name="description" content="Figma Tokens">
         <meta name="keywords" content="Figma Tokens">
-
-        <script type="text/javascript">            
+        <script type="text/javascript">      
+            // Reset cookies when styles are updated      
             var link = document.createElement( "link" );
             var number = Math.random() * 1000000;
             link.href = "css/style" + ".css" + "?" + Math.floor(number);
             link.type = "text/css";
-            link.rel = "stylesheet";
-            
+            link.rel = "stylesheet";  
             document.getElementsByTagName( "head" )[0].appendChild( link );
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body>
-        <header>
-            <p class="header-text">Figma Tokens</p>
+    <body calss="layout">
+        <header class="layout__header header">
+            <p class="header__text">Figma Tokens</p>
             <div class="header__buttons">
-                <button class="button switch-theme" onclick="switchTheme()">Switch Mode</button>
-                <button class="button" onclick="window.location.reload()">Update</button>
+                <button class="button button--outline switch-theme" onclick="switchTheme()">Switch Mode</button>
+                <button class="button button--outline update" onclick="window.location.reload()">Update</button>
             </div>
         </header>
-
-        <div class="content">
-            <div class="wrapper">
-                <h2 class="header">Buttons</h2>
-                <ul class="buttons">
-                    <button class="button button--small">Button</button>
-                    <button class="button">Button</button>
-                    <button class="button button--large">Button</button>
-                </ul>
-                <ul class="buttons">
-                    <button class="button button--small">Button</button>
-                    <button class="button">Button</button>
-                    <button class="button button--large">Button</button>
-                </ul>
-                <ul class="buttons">
-                    <button class="button button--small">Button</button>
-                    <button class="button">Button</button>
-                    <button class="button button--large">Button</button>
-                </ul>
+        <div class="layout__content content">
+            <div class="content__wrapper">
+                <div class="content__group">
+                    <h2 class="content__header">Buttons</h2>
+                    <ul class="content__buttons">
+                        <button class="button button--small button--primary">Button</button>
+                        <button class="button button--medium button--primary">Button</button>
+                        <button class="button button--large button--primary">Button</button>
+                    </ul>
+                    <ul class="content__buttons">
+                        <button class="button button--small button--secondary">Button</button>
+                        <button class="button button--medium button--secondary">Button</button>
+                        <button class="button button--large button--secondary">Button</button>
+                    </ul>
+                    <ul class="content__buttons">
+                        <button class="button button--small button--outline">Button</button>
+                        <button class="button button--medium button--outline">Button</button>
+                        <button class="button button--large button--outline">Button</button>
+                    </ul>
+                 </div>
+                 <div class="content__group">
+                    <h2 class="content__header">Cards</h2>
+                    <div class="content__cards">
+                        <div class="content__card card">
+                            <div class="card__picture">
+                                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__header">
+                                    <a href="#" class="card__link">Self-Improvement</a>
+                                </h3>
+                                <p class="card__text">Journals and note-taking</p>
+                                <div class="card__buttons">
+                                    <button class="button">Update</button>
+                                    <button class="button">Update</button>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="content__card card">
+                            <div class="card__picture">
+                                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." class="card__image">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__header">
+                                    <a href="#" class="card__link">Self-Improvement</a>
+                                </h3>
+                                <p class="card__text">Journals and note-taking</p>
+                                <button class="button">Update</button>
+                                <button class="button">Update</button>
+                            </div>
+                        </div>
+                    </div>  
+                 </div>
             </div>
         </div>
     </body>
