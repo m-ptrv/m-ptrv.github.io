@@ -392,6 +392,10 @@
     "base": {
       "value": 1,
       "type": "borderWidth"
+    },
+    "focus": {
+      "value": 4,
+      "type": "borderWidth"
     }
   },
   "fontFamily": {
