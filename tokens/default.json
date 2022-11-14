@@ -95,6 +95,10 @@
         "value": "{borderWidth.base}",
         "type": "borderWidth",
         "failedToResolve": true
+      },
+      "focus": {
+        "value": 4,
+        "type": "borderWidth"
       }
     },
     "fontFamily": {
