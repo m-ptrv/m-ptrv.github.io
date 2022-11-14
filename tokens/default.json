@@ -160,6 +160,13 @@
           "failedToResolve": true
         }
       }
+    },
+    "border": {
+      "default": {
+        "value": "{colors.grey.400}",
+        "type": "color",
+        "failedToResolve": true
+      }
     }
   }
 }
