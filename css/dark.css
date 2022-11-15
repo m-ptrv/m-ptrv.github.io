@@ -70,7 +70,7 @@
 
 .card {
   box-shadow: [object Object];
-  border-radius: 4;
+  border-radius: 4px;
   flex-basis: 250px;
   flex-grow: 1;
 }
@@ -81,14 +81,14 @@
 
 .card__image {
   width: 100%;
-  border-top-left-radius: 4;
-  border-top-right-radius: 4;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   font-size: 0;
 }
 
 .card__content {
   background-color: #171717;
-  padding: 24;
+  padding: 24px;
   border-radius: 4;
 }
 
@@ -96,8 +96,8 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
-  margin-bottom: 16;
-  font-size: 24;
+  margin-bottom: 16px;
+  font-size: 24px;
 }
 
 .card__link {
@@ -108,13 +108,13 @@
 .card__text {
   margin: 0;
   padding: 0;
-  margin-bottom: 32;
+  margin-bottom: 32px;
   color: #bdbdbd;
 }
 
 .card__buttons {
   display: flex;
-  column-gap: 12;
+  column-gap: 12px;
 }
 
 body {
