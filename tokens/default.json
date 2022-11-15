@@ -90,7 +90,7 @@
         "failedToResolve": true
       },
       "muted": {
-        "value": "{colors.grey.700}",
+        "value": "{colors.grey.600}",
         "type": "color",
         "failedToResolve": true
       },

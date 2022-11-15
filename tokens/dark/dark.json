@@ -51,7 +51,7 @@
         "failedToResolve": true
       },
       "muted": {
-        "value": "{colors.grey.700}",
+        "value": "{colors.grey.400}",
         "type": "color",
         "failedToResolve": true
       }
