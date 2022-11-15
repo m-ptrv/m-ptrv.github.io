@@ -386,6 +386,23 @@
         "type": "fontSizes",
         "failedToResolve": true
       }
+    },
+    "heading": {
+      "sm": {
+        "value": "{theme.baseline} * 6 - 4",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "md": {
+        "value": "{theme.baseline} * 6",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "lg": {
+        "value": "{theme.baseline} * 6 + 4",
+        "type": "fontSizes",
+        "failedToResolve": true
+      }
     }
   },
   "borderWidth": {

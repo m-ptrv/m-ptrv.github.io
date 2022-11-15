@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 15 Nov 2022 06:25:55 GMT
+// Generated on Tue, 15 Nov 2022 06:42:12 GMT
 
 $theme-baseline: 4;
 $theme-vertical-sm: 4 * 3 + 4;
@@ -31,6 +31,9 @@ $theme-line-height-base: 100%;
 $theme-font-size-body-sm: 4 * 4 - 4;
 $theme-font-size-body-md: 4 * 4;
 $theme-font-size-body-lg: 4 * 4 + 4;
+$theme-font-size-heading-sm: 4 * 6 - 4;
+$theme-font-size-heading-md: 4 * 6;
+$theme-font-size-heading-lg: 4 * 6 + 4;
 $theme-border-default: #616161;
 $theme-secondary-default: #eceefe;
 $theme-secondary-muted: #b1bafb;
@@ -38,6 +41,11 @@ $theme-secondary-emphasis: #d8ddfd;
 $theme-outline-default: transparent;
 $theme-outline-muted: #323232;
 $theme-outline-emphasis: #424242;
+$spacing-card-content: 4 * 6;
+$spacing-card-header: 4 * 4;
+$spacing-card-text: 4 * 8;
+$spacing-card-buttons: 4 * 3;
+$box-shadow-default: [object Object];
 $colors-black: #171717;
 $colors-white: #ffffff;
 $colors-blue-50: #eceefe;
@@ -127,6 +135,9 @@ $horizontal-lg: 4*5 + 4;
 $font-size-body-sm: 4 * 4 - 4;
 $font-size-body-md: 4 * 4;
 $font-size-body-lg: 4 * 4 + 4;
+$font-size-heading-sm: 4 * 6 - 4;
+$font-size-heading-md: 4 * 6;
+$font-size-heading-lg: 4 * 6 + 4;
 $border-width-base: 1;
 $font-family-body: Inter;
 $font-weight-inter-400: Regular;

@@ -164,6 +164,23 @@
           "type": "fontSizes",
           "failedToResolve": true
         }
+      },
+      "heading": {
+        "sm": {
+          "value": "{fontSize.heading.sm}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": "{fontSize.heading.md}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        },
+        "lg": {
+          "value": "{fontSize.heading.lg}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        }
       }
     },
     "border": {
@@ -205,6 +222,44 @@
         "type": "color",
         "failedToResolve": true
       }
+    }
+  },
+  "spacing": {
+    "card": {
+      "content": {
+        "value": "{baseline} * 6",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "header": {
+        "value": "{baseline} * 4",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "text": {
+        "value": "{baseline} * 8",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "buttons": {
+        "value": "{baseline} * 3",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "boxShadow": {
+    "default": {
+      "value": {
+        "x": 0,
+        "y": "{baseline} * 2",
+        "blur": "{baseline} * 4",
+        "spread": 0,
+        "color": "#00000026",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "failedToResolve": true
     }
   }
 }
