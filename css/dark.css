@@ -89,13 +89,14 @@
 .card__content {
   background-color: #171717;
   padding: 25px;
+  border-radius: 4px;
 }
 
 .card__header {
   color: #ffffff;
   margin: 0;
   padding: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 22px;
 }
 
@@ -107,7 +108,7 @@
 .card__text {
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .card__buttons {
