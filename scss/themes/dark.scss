@@ -25,9 +25,21 @@ body {
         font-size: 18px;
     }
 
-    &__button {
+    &__buttons {
         display: flex;
         column-gap: 15px;
+
+        .button {
+            color: white;
+
+            &:hover {
+                background-color: #323232;
+            }
+
+            &:active {
+                background-color: #161616;
+            }
+        }
     }
 }
 

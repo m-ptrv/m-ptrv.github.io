@@ -18,21 +18,29 @@
 
 .card__content {
     background-color: $theme-bg-canvas;
-    padding: 20px;
+    padding: 25px;
 }
 
 .card__header {
+    color: $theme-fg-default;
     margin: 0;
     padding: 0;
+    margin-bottom: 10px;
     font-size: 22px;
 }
 
 .card__link {
-    color: black;
+    color: $theme-fg-default;
     text-decoration: none;
 }
 
 .card__text {
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
+}
+
+.card__buttons {
+    display: flex;
+    column-gap: 10px;
 }

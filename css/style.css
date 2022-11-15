@@ -52,7 +52,7 @@
 }
 
 .button--outline {
-  background-color: #ffffff;
+  background-color: transparent;
   border-color: #bdbdbd;
   color: #171717;
   box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -88,23 +88,31 @@
 
 .card__content {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 25px;
 }
 
 .card__header {
+  color: #171717;
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
   font-size: 22px;
 }
 
 .card__link {
-  color: black;
+  color: #171717;
   text-decoration: none;
 }
 
 .card__text {
   margin: 0;
   padding: 0;
+  margin-bottom: 20px;
+}
+
+.card__buttons {
+  display: flex;
+  column-gap: 10px;
 }
 
 body {
@@ -133,7 +141,13 @@ body {
   column-gap: 15px;
 }
 .header__buttons .button {
-  border: none;
+  color: white;
+}
+.header__buttons .button:hover {
+  background-color: #323232;
+}
+.header__buttons .button:active {
+  background-color: #161616;
 }
 
 .content {

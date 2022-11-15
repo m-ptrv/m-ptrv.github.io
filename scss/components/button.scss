@@ -59,17 +59,17 @@
 }
 
 .button--outline {
-    background-color: $theme-bg-surface;
+    background-color: $theme-outline-default;
     border-color: $theme-border-default;
     color: $theme-fg-default;
     box-shadow: 0 0 #0000 ,0 0 #0000,  0 1px 2px 0 rgb(0, 0, 0,0.05);
 
     &:hover {
-        background-color: $colors-grey-200;
+        background-color: $theme-outline-muted;
     }
 
     &:active {
-        background-color:  $colors-grey-300;
+        background-color:  $theme-outline-emphasis;
     }
 
     &:focus {
