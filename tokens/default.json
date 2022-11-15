@@ -252,8 +252,8 @@
     "default": {
       "value": {
         "x": 0,
-        "y": "{baseline} * 2px",
-        "blur": "{baseline} * 4px",
+        "y": "{baseline} * 2",
+        "blur": "{baseline} * 4",
         "spread": 0,
         "color": "#00000026",
         "type": "dropShadow"
