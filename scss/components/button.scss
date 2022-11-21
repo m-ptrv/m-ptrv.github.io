@@ -1,7 +1,7 @@
 .button {
     border: $theme-border-width-base + px solid transparent;
     outline: 2px solid transparent;
-    border-radius: $border-radius + px;
+    border-radius: $theme-border-radius + px;
     cursor: pointer;
     display: inline-block;
     font-size: $font-size-body-md + px;
@@ -14,10 +14,12 @@
     box-shadow: none;
 
     &--small {
+        padding: $vertical-sm + px $horizontal-sm + px;
         font-size: $font-size-body-sm + px;
     }
     
     &--large {
+        padding: $vertical-lg + px $horizontal-lg + px;
         font-size: $font-size-body-lg + px;    
     }
 }
