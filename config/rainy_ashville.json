@@ -1,0 +1,13 @@
+{
+  "source": ["tokens/*.json", "tokens/rainy_ashville/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_rainy_ashville.scss",
+        "format": "scss/variables"
+      }]
+    }
+  }
+}
