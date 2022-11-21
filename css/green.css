@@ -2,7 +2,7 @@
 .button {
   border: 1px solid transparent;
   outline: 2px solid transparent;
-  border-radius: 4px;
+  border-radius: 24px;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
@@ -15,9 +15,11 @@
   box-shadow: none;
 }
 .button--small {
+  padding: 8px 16px;
   font-size: 12px;
 }
 .button--large {
+  padding: 16px 24px;
   font-size: 20px;
 }
 
