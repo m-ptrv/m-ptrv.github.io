@@ -2,7 +2,6 @@ var newLink;
 var newLinkNum = 0;
 
 function switchTheme() {
-    console.log(newLinkNum)
     if (newLink && newLinkNum === 2) {
         newLink.remove();
         newLink = false;
