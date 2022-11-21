@@ -1,0 +1,150 @@
+{
+  "theme": {
+    "bg": {
+      "surface": {
+        "value": "{colors.purple.950}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "canvas": {
+        "value": "linear-gradient(45deg, #eae6ff 0%, #fff 100%)",
+        "type": "color"
+      }
+    },
+    "accent": {
+      "default": {
+        "value": "{colors.purple.500}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "subtle": {
+        "value": "{colors.purple.50}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "muted": {
+        "value": "{colors.purple.400}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "emphasis": {
+        "value": "{colors.purple.600}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "disabled": {
+        "value": "{colors.purple.300}",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "fg": {
+      "on-accent": {
+        "value": "{colors.purple.950}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "default": {
+        "value": "{colors.white}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "muted": {
+        "value": "{colors.grey.400}",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{colors.grey.700}",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "outline": {
+      "default": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{colors.grey.900}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "emphasis": {
+        "value": "{colors.grey.800}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "test": {
+        "value": "fff",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{colors.purple.50}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "muted": {
+        "value": "{colors.purple.200}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "emphasis": {
+        "value": "{colors.purple.100}",
+        "type": "color",
+        "failedToResolve": true
+      }
+    },
+    "borderRadius": {
+      "value": "{borderRadius} * 8",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "fontFamily": {
+      "body": {
+        "value": "Lora",
+        "type": "fontFamilies"
+      }
+    },
+    "font-size": {
+      "body": {
+        "sm": {
+          "value": "{fontSize.body.sm} + {baseline}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": "{fontSize.body.md} + {baseline}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        },
+        "lg": {
+          "value": "{fontSize.body.lg} + {baseline}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        }
+      },
+      "heading": {
+        "sm": {
+          "value": "{fontSize.heading.sm} + {baseline}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        },
+        "md": {
+          "value": "{fontSize.heading.md} + {baseline}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        },
+        "lg": {
+          "value": "{fontSize.heading.lg} + {baseline}",
+          "type": "fontSizes",
+          "failedToResolve": true
+        }
+      }
+    }
+  }
+}
