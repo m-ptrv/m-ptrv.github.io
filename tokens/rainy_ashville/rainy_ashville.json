@@ -2,12 +2,11 @@
   "theme": {
     "bg": {
       "surface": {
-        "value": "{colors.purple.950}",
-        "type": "color",
-        "failedToResolve": true
+        "value": "linear-gradient(45deg, #eae6ff, #fff);",
+        "type": "color"
       },
       "canvas": {
-        "value": "linear-gradient(45deg, #eae6ff 0%, #fff 100%)",
+        "value": "linear-gradient(45deg, #eae6ff, #fff);",
         "type": "color"
       }
     },
