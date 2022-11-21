@@ -31,6 +31,9 @@ body {
 
         .button {
             color: white;
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
 
             &:hover {
                 background-color: #323232;

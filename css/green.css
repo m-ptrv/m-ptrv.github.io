@@ -22,14 +22,14 @@
 }
 
 .button--primary {
-  background-color: #3d53f5;
+  background-color: #18a957;
   color: #ffffff;
 }
 .button--primary:hover {
-  background-color: #6475f7;
+  background-color: #5dc389;
 }
 .button--primary:active {
-  background-color: #3142c4;
+  background-color: #11763d;
 }
 .button--primary:focus {
   outline: 2px solid #563fd8;
@@ -41,10 +41,10 @@
   color: #563fd8;
 }
 .button--secondary:hover {
-  background-color: #b1bafb;
+  background-color: #d1eedd;
 }
 .button--secondary:active {
-  background-color: #d8ddfd;
+  background-color: #e8f6ee;
 }
 .button--secondary:focus {
   outline: 2px solid #563fd8;
@@ -53,15 +53,15 @@
 
 .button--outline {
   background-color: transparent;
-  border-color: #bdbdbd;
-  color: #171717;
+  border-color: #616161;
+  color: #ffffff;
   box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 .button--outline:hover {
-  background-color: #eeeeee;
+  background-color: #323232;
 }
 .button--outline:active {
-  background-color: #e0e0e0;
+  background-color: #424242;
 }
 .button--outline:focus {
   outline: 2px solid #563fd8;
@@ -87,13 +87,13 @@
 }
 
 .card__content {
-  background-color: #ffffff;
+  background-color: #010905;
   padding: 24px;
   border-radius: 4;
 }
 
 .card__header {
-  color: #171717;
+  color: #ffffff;
   margin: 0;
   padding: 0;
   margin-bottom: 16px;
@@ -101,7 +101,7 @@
 }
 
 .card__link {
-  color: #171717;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -109,7 +109,7 @@
   margin: 0;
   padding: 0;
   margin-bottom: 32px;
-  color: #757575;
+  color: #bdbdbd;
 }
 
 .card__buttons {
@@ -121,7 +121,7 @@ body {
   font-family: "Inter", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #052211;
 }
 
 .header {
@@ -144,9 +144,6 @@ body {
 }
 .header__buttons .button {
   color: white;
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
 }
 .header__buttons .button:hover {
   background-color: #323232;
@@ -177,7 +174,7 @@ body {
   margin-bottom: 50px;
   border-bottom: 1px solid rgb(200, 200, 200);
   margin-top: 40px;
-  color: #171717;
+  color: #ffffff;
 }
 .content__buttons {
   padding: 0;
@@ -193,4 +190,4 @@ body {
   flex-wrap: wrap;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=green.css.map */
