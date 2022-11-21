@@ -2,12 +2,12 @@
   "theme": {
     "bg": {
       "surface": {
-        "value": "{colors.green.800}",
+        "value": "{colors.grey.950}",
         "type": "color",
         "failedToResolve": true
       },
       "canvas": {
-        "value": "{colors.green.900}",
+        "value": "{colors.black}",
         "type": "color",
         "failedToResolve": true
       }
