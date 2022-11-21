@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 21 Nov 2022 15:32:29 GMT
+// Generated on Mon, 21 Nov 2022 15:56:10 GMT
 
 $theme-baseline: 4;
 $theme-vertical-sm: 4 * 3 + 4;
@@ -9,8 +9,8 @@ $theme-vertical-lg: 4 * 3 + 4;
 $theme-horizontal-sm: 4*5 - 4;
 $theme-horizontal-md: 4*5;
 $theme-horizontal-lg: 4*5 + 4;
-$theme-bg-surface: #090616;
-$theme-bg-canvas: linear-gradient(45deg, #eae6ff 0%, #fff 100%);
+$theme-bg-surface: linear-gradient(45deg, #eae6ff, #fff);;
+$theme-bg-canvas: linear-gradient(45deg, #eae6ff, #fff);;
 $theme-accent-default: #563fd8;
 $theme-accent-subtle: #eeecfb;
 $theme-accent-muted: #7865e0;
